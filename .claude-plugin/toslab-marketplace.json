@@ -1,0 +1,46 @@
+{
+  "name": "toslab-skills",
+  "owner": {
+    "name": "toslab",
+    "email": "team@toslab.com"
+  },
+  "metadata": {
+    "description": "toslab custom skills collection",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "toslab-core",
+      "description": "Core development workflow skills for toslab including code review, PR helper, and API documentation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./toslab-skills/1-core/code-review",
+        "./toslab-skills/1-core/pr-helper",
+        "./toslab-skills/1-core/api-docs-generator"
+      ]
+    },
+    {
+      "name": "toslab-productivity",
+      "description": "Productivity and collaboration skills including meeting notes, standup helper, and JIRA integration",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./toslab-skills/2-productivity/meeting-notes",
+        "./toslab-skills/2-productivity/standup-helper",
+        "./toslab-skills/2-productivity/jira-integration"
+      ]
+    },
+    {
+      "name": "toslab-design",
+      "description": "Design and UX skills including brand guidelines and Figma integration",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./toslab-skills/3-design/toslab-brand",
+        "./toslab-skills/3-design/figma-integration",
+        "./toslab-skills/3-design/ux-templates"
+      ]
+    }
+  ]
+}
