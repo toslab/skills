@@ -1,0 +1,16 @@
+# Shopify Brand Manager Dependencies
+
+# Shopify API client
+requests>=2.31.0
+
+# Optional: Official Shopify Python library
+# ShopifyAPI>=12.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# JSON handling (built-in, listed for reference)
+# json
+
+# File handling (built-in)
+# pathlib

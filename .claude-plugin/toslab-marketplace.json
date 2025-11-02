@@ -33,10 +33,11 @@
     },
     {
       "name": "toslab-design",
-      "description": "Design and UX skills including brand guidelines and Figma integration",
+      "description": "Design and UX skills including Shopify brand management, brand guidelines and Figma integration",
       "source": "./",
       "strict": false,
       "skills": [
+        "./toslab-skills/3-design/shopify-brand-manager",
         "./toslab-skills/3-design/toslab-brand",
         "./toslab-skills/3-design/figma-integration",
         "./toslab-skills/3-design/ux-templates"

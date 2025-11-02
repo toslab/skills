@@ -1,0 +1,144 @@
+{
+  "brand": {
+    "name": "toslab",
+    "tagline": "혁신적인 솔루션으로 더 나은 내일을",
+    "version": "1.0.0",
+    "last_updated": "2025-01-15"
+  },
+
+  "colors": {
+    "primary": {
+      "name": "toslab Blue",
+      "hex": "#0066CC",
+      "rgb": "0, 102, 204",
+      "usage": "주요 브랜드 컬러, CTA 버튼, 링크"
+    },
+    "secondary": {
+      "name": "toslab Orange",
+      "hex": "#FF6B35",
+      "rgb": "255, 107, 53",
+      "usage": "강조, 액센트, 알림"
+    },
+    "accent": {
+      "name": "toslab Green",
+      "hex": "#00CC66",
+      "rgb": "0, 204, 102",
+      "usage": "성공 메시지, 긍정적 상태"
+    },
+    "neutral": {
+      "dark": {
+        "hex": "#1A1A1A",
+        "rgb": "26, 26, 26",
+        "usage": "텍스트, 헤딩"
+      },
+      "medium": {
+        "hex": "#666666",
+        "rgb": "102, 102, 102",
+        "usage": "보조 텍스트"
+      },
+      "light": {
+        "hex": "#F5F5F5",
+        "rgb": "245, 245, 245",
+        "usage": "배경, 섹션 구분"
+      },
+      "white": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255",
+        "usage": "주요 배경"
+      }
+    },
+    "semantic": {
+      "success": "#00CC66",
+      "warning": "#FFA500",
+      "error": "#E63946",
+      "info": "#0066CC"
+    }
+  },
+
+  "typography": {
+    "headings": {
+      "family": "Pretendard",
+      "weights": [400, 600, 700],
+      "fallback": "system-ui, -apple-system, sans-serif",
+      "usage": "모든 제목 (H1-H6)"
+    },
+    "body": {
+      "family": "Pretendard",
+      "weights": [400, 500],
+      "fallback": "system-ui, -apple-system, sans-serif",
+      "usage": "본문 텍스트, 단락"
+    },
+    "monospace": {
+      "family": "JetBrains Mono",
+      "weights": [400, 500],
+      "fallback": "Courier New, monospace",
+      "usage": "코드, 기술 정보"
+    },
+    "sizes": {
+      "h1": "3rem",
+      "h2": "2.5rem",
+      "h3": "2rem",
+      "h4": "1.5rem",
+      "h5": "1.25rem",
+      "h6": "1rem",
+      "body": "1rem",
+      "small": "0.875rem",
+      "tiny": "0.75rem"
+    },
+    "lineHeights": {
+      "tight": "1.2",
+      "normal": "1.5",
+      "relaxed": "1.75",
+      "loose": "2"
+    }
+  },
+
+  "spacing": {
+    "scale": "8px base",
+    "values": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "3xl": "64px",
+      "4xl": "96px"
+    }
+  },
+
+  "borderRadius": {
+    "none": "0",
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "full": "9999px"
+  },
+
+  "shadows": {
+    "sm": "0 1px 2px rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px rgba(0, 0, 0, 0.1)",
+    "lg": "0 10px 15px rgba(0, 0, 0, 0.1)",
+    "xl": "0 20px 25px rgba(0, 0, 0, 0.15)"
+  },
+
+  "assets": {
+    "logo": {
+      "primary": "assets/images/toslab-logo.svg",
+      "white": "assets/images/toslab-logo-white.svg",
+      "icon": "assets/images/toslab-icon.svg",
+      "favicon": "assets/images/favicon.ico"
+    },
+    "images": {
+      "hero": "assets/images/hero-bg.jpg",
+      "placeholder": "assets/images/placeholder.jpg"
+    }
+  },
+
+  "shopify": {
+    "store_url": "your-store.myshopify.com",
+    "theme_id": "123456789",
+    "metafield_namespace": "toslab_brand"
+  }
+}
